@@ -58,7 +58,7 @@ function useTypewriter(text: string, delay: number): string {
     }, delay)
 
     return () => {
-      clearInterval(intersvalId)
+      clearInterval(intervalId)
     }
   }, [text, delay])
 
